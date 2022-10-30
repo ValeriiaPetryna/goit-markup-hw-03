@@ -3,6 +3,14 @@ body{
   text-decoration-color:#757575;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
 img {
     display: block;
     width: 100%;
@@ -10,7 +18,7 @@ img {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 margin-left: auto;
@@ -40,12 +48,21 @@ margin-right: auto;
     line-height:1,19;
     color: #000000;
 }
+    .logo-second-footer {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height:1,19;
+        color: #FFFFFF;
+}
 
 /* header */
 
 .page-header {
 background-color:#FFFFFF;
 padding-bottom: 94px;
+border: 1px solid #ECECEC;
 }
 
 .page-header .container {
@@ -55,6 +72,7 @@ display: flex;
 
 .header-nav {
     display: flex;
+    align-items: center; 
 }
 .header-list {
     display: flex;
@@ -114,7 +132,7 @@ text-align: center;
 }
 
 .hero-title {
-    width: 696;
+    min-width: 696;
     margin: 0px;
 }
 
@@ -142,11 +160,14 @@ line-height: 1,88;
 letter-spacing: 0.06em;
 margin-top: 30px;
 text-align: center;
-color: #FFFFFF;}
+color: #FFFFFF;
+background-color: #2196F3;}
+
 
 
 .main-button:hover, :focus {
     background-color: #2196F3;
+    color: #FFFFFF;
     cursor: pointer;
 }    
 .filter-button{
@@ -257,7 +278,10 @@ font-size: 16px;
 line-height: 1,19;
 color: #757575;
 }
-
+.position-frontend, .position-marketing {
+background: url(16166.jpg);
+border-radius: 0px;
+}
 /* footer */
 
 .footer-logo {
