@@ -44,7 +44,8 @@ margin-right: auto;
 /* header */
 
 .page-header {
-background-color:#FFFFFF;;
+background-color:#FFFFFF;
+padding-bottom: 94px;
 }
 
 .page-header .container {
@@ -301,13 +302,15 @@ margin: 0px;
     margin-left: -30px;
 margin-top: -30px;
 }
-
+.container-portfolio {
+    padding-bottom: 94px;
+}
 .our-projects-list >.item {
-flex-basis: calc(100% / 3 - 30px);
+flex-basis: calc(100% - 60 / 3 );
 margin-left: 30px;
 margin-top: 30px;
+border: 1px solid #eeeeee;
 }
-
 
 .visually-hidden{
     display: none;}
@@ -329,4 +332,14 @@ display: flex;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
+}
+.main-filter-list .item:not(:first-child) {
+margin-left: 8px;
+}
+.filter-button {
+    width: auto;
+    height: 38px;
+}
+.projects-description {
+    padding: 20px 24px; 
 }
